@@ -120,4 +120,4 @@ tidy_feature_measurements <- feature_measurements %>%
 head(tidy_feature_measurements, 6*3)
 
 # save to a file
-write.csv(tidy_feature_measurements, file="tidydata2.csv") # Testing push button in RStudio. 
+write.csv(tidy_feature_measurements, file="tidydata2.csv") 
