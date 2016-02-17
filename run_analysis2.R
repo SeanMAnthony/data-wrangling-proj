@@ -115,9 +115,9 @@ tidy_feature_measurements <- feature_measurements %>%
   group_by(subjectid, activity) %>%
   summarise_each(funs(mean)) %>%
   ungroup() %>% 
-  arrange()
+  arrange() 
 
 head(tidy_feature_measurements, 6*3)
 
 # save to a file
-write.csv(tidy_feature_measurements, file="tidydata2.csv")
+write.csv(tidy_feature_measurements, file="tidydata2.csv") # Testing push button in RStudio. 
